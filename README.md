@@ -1,2 +1,5 @@
-# eYY-xxx-project-template
-This is the general project template for course projects.
+# Project Zero trash
+
+docs: Web Page
+frontend: React Application
+backend: PHP backend server

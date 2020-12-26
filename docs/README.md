@@ -35,13 +35,13 @@ Zero Trash provides a communication platform between its users and garbage colle
 
 ## Solution Architecture
 
-### Frontend Web Applications for Clients
+#### Frontend Web Applications for Clients
 For Users and Collectors. Users should be able to sign in to it and place pickup requests for trash collections and maintain their contact information.
 
-### RESTful API Server
+#### RESTful API Server
 This will provide data and services to the Frontend application using HTTP GET and POST requests. Every request is authenticated using a bearer authentication token, which is issued to users when login into the system.
 
-### Web Application for Management
+#### Web Application for Management
 For management and monitoring purposes. System owners can sign in and see the progress of the system, accept and manage trash collector activities, communicate with customers, and see the summary of trash collected between certain periods.
 
 ## Design
