@@ -5,6 +5,9 @@ on:
       - main
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: frontend
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -15,9 +18,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    
-    - name: Move into the frontend build
-      run: cd ./frontend
         
     - name: Install Packages
       run: npm install
