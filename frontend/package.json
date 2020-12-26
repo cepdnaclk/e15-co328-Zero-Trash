@@ -1,0 +1,54 @@
+{
+   "name": "test",
+   "version": "0.1.0",
+   "private": true,
+   "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/user-event": "^7.2.1",
+      "axios": "^0.19.2",
+      "beauty-stars": "^1.1.0",
+      "bootstrap": "^4.4.1",
+      "enzyme": "^3.11.0",
+      "enzyme-adapter-react-16": "^1.15.3",
+      "jest-dom": "^4.0.0",
+      "postinstall": "^0.7.0",
+      "react": "^16.13.1",
+      "react-bootstrap": "^1.0.0",
+      "react-dom": "^16.13.1",
+      "react-icons": "^2.2.7",
+      "react-multistep": "^4.0.1",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "^3.4.3",
+      "reactstrap": "^8.4.1"
+   },
+   "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --passWithNoTests",
+      "eject": "react-scripts eject"
+   },
+   "proxy": "https://collector.ceykod.com/",
+   "homepage": "http://collectorapp.ceykod.com/",
+   "eslintConfig": {
+      "extends": "react-app"
+   },
+   "browserslist": {
+      "production": [
+         ">0.2%",
+         "not dead",
+         "not op_mini all"
+      ],
+      "development": [
+         "last 1 chrome version",
+         "last 1 firefox version",
+         "last 1 safari version"
+      ]
+   },
+   "devDependencies": {
+      "@testing-library/react": "^9.5.0",
+      "gh-pages": "^2.2.0",
+      "react-test-render": "^1.1.2"
+   }
+}
